@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{9C1F12DA-DACC-40F9-88D9-35B54574A395}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optima.Shared", "Optima.Shared", "{B34A2BCF-933D-4A77-ADD4-3A29A1FF4F4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3.Utilities", "..\optima.shared\S3.Utilities\S3.Utilities.csproj", "{6110C3C7-9FBC-44D3-835E-DB1D2179A67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{9C1F12DA-DACC-40F9-88D9-35B54574A395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1F12DA-DACC-40F9-88D9-35B54574A395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1F12DA-DACC-40F9-88D9-35B54574A395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6110C3C7-9FBC-44D3-835E-DB1D2179A67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6110C3C7-9FBC-44D3-835E-DB1D2179A67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6110C3C7-9FBC-44D3-835E-DB1D2179A67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6110C3C7-9FBC-44D3-835E-DB1D2179A67F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6110C3C7-9FBC-44D3-835E-DB1D2179A67F} = {B34A2BCF-933D-4A77-ADD4-3A29A1FF4F4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B43BF1E-4506-4477-A115-2CBEC23FDDE1}

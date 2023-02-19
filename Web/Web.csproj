@@ -10,4 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\optima.shared\S3.Utilities\S3.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
