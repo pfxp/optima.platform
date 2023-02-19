@@ -1,0 +1,3 @@
+[submodule "submodules/optima.shared"]
+	path = submodules/optima.shared
+	url = https://github.com/pfxp/optima.shared.git
